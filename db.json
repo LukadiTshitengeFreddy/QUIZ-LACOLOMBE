@@ -1,0 +1,132 @@
+[
+   {
+      "nom": "CHAPITRE : LES EXPRESSIONS A CONNAITRE",
+      "textes": [
+         {
+            "id": 1,
+            "quiz": "Que veut dire l'expression: MVT ?",
+            "textes": "Veut dire déplacer l’argent d’une agence a une autre dans une même ville, soit d’une ville a une autre, soit encore d’une agence à une banque ou vice versa"
+         },
+         {
+            "id": 2,
+            "quiz": "Que veut dire l'expression: Mission de service ?",
+            "textes": "Inclus tout déplacement du travailleur dans le cadre du travail pour une longue ou courte durée sur un chemin long ou court"
+         },
+         {
+            "id": 3,
+            "quiz": "Que veut dire expression : Au service ?",
+            "textes": "Au boulot, au travail ou en train de travailler ; soit le trajet nécessaire pour atteindre le lieu du travail"
+         },
+         {
+            "id": 4,
+            "quiz": "Que veut dire l'expression : Locale ",
+            "textes": "L’endroit où se trouve notre activité ou notre bureau (bureau, agence, alimentation, magasin ou toute pièce comprenant les biens et matériaux)"
+         },
+         {
+            "id": 5,
+            "quiz": "Que veut dire l'expression: Comité directeur ",
+            "textes": "L’ensemble des quatre dirigeants de l’entreprise dont, Monsieur Baudouin (Président Directeur General), Madame Nicole (Présidente Directrice General Adjointe), Monsieur Patrick (Directeur General) et Monsieur Ismaël (Directeur General Adjoint)"
+         },
+         {
+            "id": 6,
+            "quiz": "Que veut dire l'expression : Salongo ",
+            "textes": "Heures hebdomadaire de travail manuel ou des travaux organisés"
+         },
+         {
+            "id": 7,
+            "quiz": "Que veut dire l'expression : Direction ",
+            "textes": "Peut désigner un seul responsable du département concerner ou bien tous les membres qui travaillent à la direction générale"
+         },
+         {
+            "id": 8,
+            "quiz": "Que veut dire l'expression : Agence Direction  ",
+            "textes": "C’est l’agence de la direction générale qui permet d’envoyer, de transférer ou de retirer des codes d’argent des clients à partir de la direction"
+         },
+         {
+            "id": 9,
+            "quiz": "Que veut dire l'expression : ONG ",
+            "textes": "Organisation non-gouvernementale"
+         },
+         {
+            "id": 10,
+            "quiz": "Que veut dire l'expression : Automobile  ",
+            "textes": "Le moyen de transport utiliser par/pour l’entreprise comme : le véhicule ou la moto"
+         },
+         {
+            "id": 11,
+            "quiz": "Que veut dire l'expression : Mineur",
+            "textes": "Tout enfant garçon ou fille qui a moins de 18 ans d’âge"
+         },
+         {
+            "id": 12,
+            "quiz": "Que veut dire l'expression : Adulte ",
+            "textes": "Toute personne qui a plus de 18 ans d’âge"
+         },
+         {
+            "id": 13,
+            "quiz": "Que veut dire l'expression : Solde ",
+            "textes": "Le bureau de la direction générale qui s’occupe de vérifier toutes les transactions financières et contrôler le capital de l’entreprise"
+         },
+         {
+            "id": 14,
+            "quiz": "Que veut dire l'expression : Code",
+            "textes": "Peut-être une combinaison des lettres et des chiffres donner au client l’ors du dépôt. Ceci doit être garder secret et donner à son destinataire pour retirer l’argent"
+         },
+         {
+            "id": 15,
+            "quiz": "Que veut dire l'expression : Retrait code  ",
+            "textes": "Consiste à retourner à l’agence d’envoie un code d’argent qui a été envoyé à une destination quelconque"
+         },
+         {
+            "id": 16,
+            "quiz": "Que veut dire l'expression : Expéditaire ",
+            "textes": "C’est celui qui envoi l’argent"
+         },
+         {
+            "id": 17,
+            "quiz": "Que veut dire l'expression : Destinataire",
+            "textes": "C’est celui à qui on a envoyé l’argent par l’expeditaire"
+         },
+         {
+            "id": 18,
+            "quiz": "Que veut dire l'expression : Dépôt",
+            "textes": ": C’est l’opération qui consiste pour un client à remettre l’argent a un caissier pour pouvoir le transférer pour son compte vers une autre agence"
+         },
+         {
+            "id": 19,
+            "quiz": "Que veut dire l'expression : Dépôt bancaire",
+            "textes": "Opération qui consiste pour un travailleur de mettre de l’argent dans un compte logé en banque au nom et pour le compte de l’entreprise."
+         },
+         {
+            "id": 20,
+            "quiz": "Que veut dire l'expression : Retrait ",
+            "textes": ": Opération consistant pour un bénéficiaire de retirer une somme d’argent dans notre locale moyennant un code fournit par un expéditeur."
+         },
+         {
+            "id": 21,
+            "quiz": "Que veut dire l'expression : Retrait bancaire ",
+            "textes": "Opération qui consiste pour un travailleur de retirer de l’argent dans un compte logé en banque au nom et pour le compte de l’entreprise"
+         },
+         {
+            "id": 22,
+            "quiz": "Que veut dire l'expression : Transfert ",
+            "textes": "Opération qui consiste a envoyé de l’argent d’une agence à une autre"
+         },
+         {
+            "id": 23,
+            "quiz": "Que veut dire l'expression : Mise à pied  ",
+            "textes": "Les jours de suspension ou de punition non-payer"
+         }
+      ]
+   },
+   {
+      "nom": "LE BUT",
+      "textes": [
+         {
+            "id": 1,
+            "quiz": "Qu'elle est le but de ce < Reglement d'ordre interireur >",
+            "textes": "Le présent règlement a pour but de régir les relations et les conditions de travail au sein de la société"
+         }
+      ]
+   }
+]
