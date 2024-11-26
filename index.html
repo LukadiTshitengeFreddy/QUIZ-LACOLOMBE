@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/android-chrome-192x192.png">
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-   <link rel="manifest" href="/site.webmanifest">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link rel="stylesheet" href="style.css">
-   <title>REGLEMENT D'ORDRE INTERIEUR</title>
-</head>
-<body>
-   <div class="text-center mt-3"><img src="assets/background_lacolombe.jpg" alt="Affiche de lacolombe" style="height: 125px; border-radius: 10px;"></div>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="apple-touch-icon" sizes="180x180"
+         href="assets/favicon/android-chrome-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32"
+         href="assets/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16"
+         href="assets/favicon/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous">
+      <title>REGLEMENT D'ORDRE INTERIEUR</title>
 
-         <div class="text-center fw-bold mt-3">QUESTION 1/2</div>
-   <div class="mt-4 bg-light border border-5" style="display: flex; justify-content: center; align-items: center; width: 60%; margin: auto; height: 70%; height: 70vh; " >
-      <div>
-         <div class="text-center mt-1" id="HereQuiez">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis aspernatur tempora odio impedit doloremque cum, ipsum cupiditate, fugiat veniam vitae, fuga recusandae animi. Eveniet fugiat iusto eum molestias sed sunt.</div>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="text-center mt-3"><img src="assets/background_lacolombe.jpg"
+            alt="Affiche de lacolombe"
+            style="height: 125px; border-radius: 10px;"></div>
 
-         <div class="d-flex m-4 pt-3">
-            <div class="row">
-               <div class="col">
-                  <button class="btn btn-outline-success m-2" id="chose_one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora quaerat atque! Quis voluptas totam ipsam optio aperiam fugit temporibus a, facilis debitis excepturi autem veritatis amet earum ipsa minus.</button>
-                  <button class="btn btn-outline-success m-2" id="chose_two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora quaerat atque! Quis voluptas totam ipsam optio aperiam fugit temporibus a, facilis debitis excepturi autem veritatis amet earum ipsa minus.</button>
+      <div class="text-center fw-bold mt-3" id="compteur" style="font-size: 25px;">0/</div>
+      <div class="mt-4 bg-light border border-5"
+         style="display: flex; justify-content: center; align-items: center; width: 60%; margin: auto; height: 70%; height: 70vh; ">
+         <div style="display: none;" id="AffichageAll">
+            <div class="text-center mt-3" id="HereQuiez"></div>
+
+            <div class="d-flex m-4 pt-5">
+               <div class="row">
+                  <div class="col">
+                     <button class="btn btn-outline-success mb-3" id="chose_one"
+                        onclick="compteurValue()"></button>
+                     <button class="btn btn-outline-success" id="chose_two"
+                        onclick="compteurValue()"></button>
+                  </div>
                </div>
-            </div>
-            <div class="row">
-               <div class="col">
-                  <button class="btn btn-outline-success m-2" id="chose_three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores impedit corrupti incidunt quisquam iure. Atque sapiente nihil enim harum sequi deserunt libero, quos soluta eos, repellendus consequatur voluptatem voluptates aut!</button>
-                  <button class="btn btn-outline-success m-2" id="chose_for">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores impedit corrupti incidunt quisquam iure. Atque sapiente nihil enim harum sequi deserunt libero, quos soluta eos, repellendus consequatur voluptatem voluptates aut!</button>
+               <div class="row">
+                  <div class="col">
+                     <button class="btn btn-outline-success mb-3"
+                        id="chose_three" onclick="compteurValue()"></button>
+                     <button class="btn btn-outline-success" id="chose_for"
+                        onclick="compteurValue()"></button>
+                  </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
-   <script src="script.js"></script>
-</body>
+      <script src="script.js"></script>
+   </body>
 </html>
