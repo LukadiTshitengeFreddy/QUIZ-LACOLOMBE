@@ -36,8 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       'Un groupe restreint de personnes ayant pour mission de définir les grandes orientations et de prendre des décisions dans le but de s\'auto - satisfaire',
       'L’ensemble des quatre dirigeants de l’entreprise dont, la mission est de définir les grandes orientations et de prendre des décisions stratégiques au sein de entreprise(1)'
    ]
-
-   let NbrQuestion = Questions.length;
+   let NbrQuestions = Questions.length;
 
    let afficheDiv = document.getElementById('AffichageAll')
 
@@ -52,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
    let Reponse4 = document.getElementById('chose_for')
 
    DivQuestion.textContent = '',
-
       setTimeout(() => {
          afficheDiv.style.display = 'block';
          DivQuestion.textContent = Questions[0]
@@ -61,10 +59,10 @@ document.addEventListener("DOMContentLoaded", function () {
          Reponse3.textContent = Answer1[2]
          Reponse4.textContent = Answer1[3]
       }, 500);
-
-
+   document.getElementById('sur').textContent = NbrQuestions;
 
 });
+
 
 let compteur = 0;
 
@@ -72,7 +70,7 @@ let CompteurIncrem = document.getElementById('compteur')
 
 function compteurValue() {
    compteur += 1;
-   CompteurIncrem.textContent = compteur + '/' + NbrQuestion;
+   CompteurIncrem.textContent = compteur + '/';
 }
 
 
