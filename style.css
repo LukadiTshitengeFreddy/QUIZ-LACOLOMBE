@@ -1,13 +1,14 @@
 body {
    background-color: rgb(205, 203, 203);
 }
-#HereQuiez{
+
+#HereQuiez {
    display: block;
    color: rgb(0, 0, 0);
    font-size: 22px;
 }
+
 button {
    width: 400px;
-   height: 150px;
-   
+   height: 120px;
 }
