@@ -2,13 +2,18 @@ body {
    background-color: rgb(205, 203, 203);
 }
 
-#HereQuiez {
-   display: block;
-   color: rgb(0, 0, 0);
-   font-size: 22px;
+img {
+   height: 125px;
+   border-radius: 10px;
 }
 
-button {
-   width: 400px;
-   height: 120px;
+.container_all {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+   margin: auto;
+   height: 70%;
+   height: 70vh;
+   margin-top: 50px;
 }
