@@ -1,5 +1,6 @@
 body {
    background-color: rgb(205, 203, 203);
+   margin: 2%;
 }
 
 img {
@@ -16,4 +17,23 @@ img {
    height: 70%;
    height: 70vh;
    margin-top: 50px;
+}
+
+.header_screen {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 17%;
+}
+
+.btn_startGame {
+   padding: 15px;
+   background-color: white;
+   color: green;
+   transition: 1s ease;
+}
+
+.btn_startGame:hover {
+   background-color: green;
+   color: white;
 }
