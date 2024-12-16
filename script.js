@@ -35,6 +35,11 @@ const Answer5 = [
    'Un groupe restreint de personnes ayant pour mission de définir les grandes orientations et de prendre des décisions dans le but de s\'auto - satisfaire',
    'L’ensemble des quatre dirigeants de l’entreprise dont, la mission est de définir les grandes orientations et de prendre des décisions stratégiques au sein de entreprise(1)'
 ]
+
+let letGo = document.getElementById('letGo')
+
+let AffichageAll = document.getElementById('AffichageAll')
+
 let NbrQuestions = Questions.length;
 
 let DivQuestion = document.getElementById('HereQuiez')
@@ -51,30 +56,10 @@ let compteur = 0;
 
 let CompteurIncrem = document.getElementById('compteur')
 
-DivQuestion.textContent = '',
+let letgoCompt = document.getElementById('letgoCompt')
 
-   DivQuestion.textContent = Questions[0]
-Reponse1.textContent = Answer1[0]
-Reponse2.textContent = Answer1[1]
-Reponse3.textContent = Answer1[2]
-Reponse4.textContent = Answer1[3]
-
-
-function compteurValue() {
-   compteur += 1;
-   CompteurIncrem.textContent = compteur + '/' + NbrQuestions;
-
-   for (let i = 0; i < Questions.length; i++) {
-      DivQuestion.textContent = Questions[i]
-   }
-}
-
-
-
-
-
-
-
-
-
-
+letGo.addEventListener('click', function () {
+   AffichageAll = document.getElementById('AffichageAll')
+   AffichageAll.style.display = 'block';
+   letGo.style.display = 'none';
+})
