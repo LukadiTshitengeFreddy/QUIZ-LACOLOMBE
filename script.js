@@ -38,8 +38,9 @@
 let header_screen = document.getElementById('header_screen')
 let btn_startGame = document.getElementById('btn_startGame')
 let second_screen = document.getElementById('second_screen')
-
+let score = 0
 btn_startGame.addEventListener('click', function () {
    header_screen.style.display = 'none';
    second_screen.style.display = 'block';
 })
+
