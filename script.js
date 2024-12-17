@@ -34,6 +34,7 @@
 //    'L’ensemble des quatre dirigeants de l’entreprise dont, la mission est de définir les grandes orientations et de prendre des décisions stratégiques au sein de entreprise(1)'
 // ]); quiz.addQuestion(question1);
 
+
 let header_screen = document.getElementById('header_screen')
 let btn_startGame = document.getElementById('btn_startGame')
 let second_screen = document.getElementById('second_screen')
