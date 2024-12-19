@@ -8,9 +8,12 @@ btn_startGame.addEventListener('click', function () {
    second_screen.style.display = 'block';
 })
 
-btn_quiz.addEventListener('click', function () {
+function click(btn_quiz) {
+   btn_quiz.addEventListener('click', function () {
       alert('Bonjour Freddy')
-})
+   })
+}
+
 
 
 // let quiz1 = new Questions("Que veut dire l\'expression : MVT ? ", [
