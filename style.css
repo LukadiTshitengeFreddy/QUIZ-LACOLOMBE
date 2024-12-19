@@ -56,8 +56,9 @@ img {
 }
 
 .btn_quiz {
+   padding: 7px;
    border-color: rgb(255, 255, 255);
-   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
    border-radius: 5px;
    color: rgb(0, 0, 0);
    transition: 0.5s ease-in-out;

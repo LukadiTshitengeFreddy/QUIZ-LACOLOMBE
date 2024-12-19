@@ -8,7 +8,7 @@ btn_startGame.addEventListener('click', function () {
    second_screen.style.display = 'block';
 })
 
-function click(btn_quiz) {
+function click() {
    btn_quiz.addEventListener('click', function () {
       alert('Bonjour Freddy')
    })
