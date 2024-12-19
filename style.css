@@ -57,13 +57,14 @@ img {
 
 .btn_quiz {
    border-color: rgb(255, 255, 255);
+   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
    border-radius: 5px;
    color: rgb(0, 0, 0);
    transition: 0.5s ease-in-out;
 }
 
 .btn_quiz:hover {
-   background-color: rgb(242, 111, 50);
+   background-color: green;
    color: rgb(255, 255, 255);
    border-radius: 30px;
    border-color: rgb(255, 255, 255);
