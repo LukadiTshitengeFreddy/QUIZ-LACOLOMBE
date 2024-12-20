@@ -35,21 +35,25 @@
       <!-- Contenaire de tous les composaants -->
       <div class="bg-light border border-5 mt-4 container_all">
          <div id="first_screen" class="first_screen">
-            <button class="btn_startGame" id="btn_startGame"><i
+            <button class="btn_start" id="btn_start"><i
                   class="fa-solid fa-play fa-1x"> P_L_A_Y -
                   G_A_M_E</i></button>
          </div>
          <div class="second_screen" id="second_screen">
-            <div class="text-center fs-4 mt-4">0</div>
-            <div class="Espace_Quiz text-center"></div>
-            <div class="container_Quiz row m-4">
+            <div class="text-center fs-4 mt-4" id="increm_quiz">0</div>
+            <div class="Espace_Quiz text-center" id="view_quiz"></div>
+            <div class="container_Quiz row m-1">
                <div class="col">
-                  <button class="btn_quiz m-3 fs-6" onclick></button>
-                  <button class="btn_quiz m-3 fs-6" onclick></button>
+                  <div class="btn_quiz m-3 fs-6 text-center" onclick="count()"
+                     id="btn"></div>
+                  <div class="btn_quiz m-3 fs-6 text-center" onclick="count()"
+                     id="btn"></div>
                </div>
                <div class="col">
-                  <button class="btn_quiz m-3 fs-6" onclick></button>
-                  <button class="btn_quiz m-3 fs-6" onclick></button>
+                  <div class="btn_quiz m-3 fs-6 text-center" onclick="count()"
+                     id="btn"></div>
+                  <div class="btn_quiz m-3 fs-6 text-center" onclick="count()"
+                     id="btn"></div>
                </div>
             </div>
          </div>
