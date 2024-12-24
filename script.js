@@ -1,6 +1,4 @@
-
-
-const step1 = [
+const quizContent = [
    {
       "title": 'Que veut dire l\'expression : MVT ?',
       "id": 1,
@@ -68,26 +66,10 @@ const step1 = [
    }
 ]
 
-
-
 let first_screen = document.querySelector('#first_screen');
 let second_screen = document.querySelector('#second_screen');
+let btn_start = document.querySelector('#btn_start');
 
-
-function letgo() {
-   first_screen.style.display = 'none';
-   second_screen.style.display = 'block';
-}
-let btn_start = document.querySelector('#btn_start')
-btn_start.addEventListener('click', letgo)
-
-let view_quiz = document.querySelector('#view_quiz')
-
-view_quiz.textContent = ''
-for (let i = 0; i < step1.length; i++) {
-   let btn = document.querySelector('#btn')
-   btn.addEventListener('click', function () {
-      view_quiz.textContent = step1[i].title
-
-   })
-}
+btn_start.addEventListener('click', function () {
+   first_screen.style.display = 'none'
+})
