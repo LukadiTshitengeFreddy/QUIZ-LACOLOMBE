@@ -63,6 +63,71 @@ const quizContent = [
          }
       ],
       "correctAnswer": 3
+   },
+   {
+      "title": "Que veut dire l\'expression : Salongo ? ",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Salongo est un terme en espagnol signifiant ( liberté ) et est souvent utilisé pour exprimer un sentiment d'indépendance personnelle lors de vacances ensoleillées.",
+            "two": "Salongo désigne une danse traditionnelle congolaise pratiquée lors des grandes fêtes de carnaval, où les danseurs forment des cercles en portant des costumes colorés.",
+            "three": "Salongo est un mot utilisé en gastronomie pour désigner un type de pain très populaire en Italie, fabriqué à partir de farine de seigle et cuit dans un four à bois.",
+            "for": "Salongo designe les heures heddomadaire de travail manuel ou des travaux organisés, dans les cités et tout les endroits public tout les Samedis"
+         }
+      ],
+      "correctAnswer": 3
+   },
+   {
+      "title": "Que veut dire l\'expression : Direction ? ",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Direction est un terme militaire qui fait référence à l'ordonnance secrète donnée par un général avant chaque bataille, visant à déstabiliser l'ennemi psychologiquement.",
+            "two": "L’ensemble des quatre dirigeants de l’entreprise dont, la mission est de définir les grandes orientations et de prendre des décisions stratégiques au sein de entreprise(1)",
+            "three": "Direction est une danse originaire d'Indonésie, pratiquée en groupe, où les participants bougent leurs bras et leurs jambes en suivant des signes donnés par un meneur de danse.",
+            "for": "Peut designer un seul responsable du departement concerner ou tous les membres qui travaillent à la direction generale "
+         }
+      ],
+      "correctAnswer": 3
+   },
+   {
+      "title": "Qui est le Directeur Genrale de notre entreprise ? ",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Monsieur Baudoin Wa ngoie",
+            "two": "Monsieur Patrick Kibila",
+            "three": "Monsieur Deo Hamboleo",
+            "for": "Monsieur Jonathan Monkila"
+         }
+      ],
+      "correctAnswer": 1
+   },
+   {
+      "title": "Que veut dire l\'expression : ONG ? ",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "ONG est un acronyme pour (Organisations de Nouveaux Groupes), un réseau de collectifs informels qui se sont formés pour lutter contre la mondialisation économique.",
+            "two": "ONG signifie (Opérateurs de Négociation Globale), un groupe d'entreprises internationales qui travaillent ensemble pour réguler le commerce mondial et réduire les barrières tarifaires.",
+            "three": "ONG désigne une catégorie d'organisations en France qui se consacrent exclusivement à la gestion des ressources naturelles et à la reforestation dans les zones rurales.",
+            "for": "ONG est un acronyme pour (Organisation non-gouvernementale )"
+         }
+      ],
+      "correctAnswer": 3
+   },
+   {
+      "title": "Que veut dire l\'expression : Mineur ? ",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Mineur désigne un type de métal rare utilisé dans la fabrication des composants électroniques, qui est extrait des profondeurs marines par des robots spécialisés.",
+            "two": "Mineur est un terme utilisé dans l'industrie musicale pour désigner un genre de musique folk, caractérisé par des instruments traditionnels comme le banjo et la mandoline.",
+            "three": "Mineur est une ancienne méthode de navigation maritime qui consistait à utiliser des pierres précieuses extraites des mines pour déterminer la position du navire à l'aide de leurs propriétés magnétiques.",
+            "for": "Tout enfant garcon ou fille qui a moins de 18 ans d'âge"
+         }
+      ],
+      "correctAnswer": 3
    }
 ]
 
