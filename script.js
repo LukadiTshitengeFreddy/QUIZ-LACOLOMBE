@@ -68,8 +68,18 @@ const quizContent = [
 
 let first_screen = document.querySelector('#first_screen');
 let second_screen = document.querySelector('#second_screen');
-let btn_start = document.querySelector('#btn_start');
-
-btn_start.addEventListener('click', function () {
-
+let btn_start = document.querySelector('#btn_start').addEventListener('click', function () {
+   first_screen.style.display = 'none';
+   second_screen.style.display = 'block';
 })
+let view_quiz = document.querySelector('#view_quiz')
+
+
+function openModal() {
+   document.querySelector('.overlay').style.display = 'block';
+   document.querySelector('.modal').classList.add('modal--open');
+}
+function closeModal() {
+   document.querySelector('.overlay').style.display = 'none';
+   document.querySelector('.modal').classList.remove('modal--open');
+}
