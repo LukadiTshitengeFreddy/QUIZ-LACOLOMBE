@@ -66,20 +66,71 @@ const quizContent = [
    }
 ]
 
-let first_screen = document.querySelector('#first_screen');
-let second_screen = document.querySelector('#second_screen');
-let btn_start = document.querySelector('#btn_start').addEventListener('click', function () {
+/// Assignation des variables à leurs Ids
+const first_screen = document.querySelector('#first_screen');
+const second_screen = document.querySelector('#second_screen');
+let btn_start = document.querySelector('#btn_start')
+let view_quiz = document.querySelector('#view_quiz')
+let increm_quiz = document.querySelector('#increm_quiz')
+let allQuiz = quizContent.length
+
+let currentQuestionIndex = 0
+let NbrQiz = 0
+
+increm_quiz.textContent = '0/' + allQuiz;
+/// Declenchement du quiz
+view_quiz.textContent = ''
+btn_start.addEventListener('click', function () {
    first_screen.style.display = 'none';
    second_screen.style.display = 'block';
+   displayQuestion()
 })
-let view_quiz = document.querySelector('#view_quiz')
+
+/// Espace ou les questions seront affichés
+function displayQuestion() {
+   if (currentQuestionIndex < quizContent.length) {
+      const question = quizContent[currentQuestionIndex];
+      view_quiz.textContent = question.title;
+      document.querySelectorAll('.btn_quiz').forEach((btn, index) => {
+         const options = Object.values(question.suggestions[0]);
+         btn.textContent = options[index + 1];
+         btn.onclick = () => handleAnswer(index);
+      });
+   } else {
+      endQuiz();
+   }
+}
+
+/// Gestion des réponses
+function handleAnswer(selectedIndex) {
+   if (allQuiz <= quizContent.length) {
+      NbrQiz += 1
+      increm_quiz.textContent = NbrQiz + '/' + allQuiz
+   }
+   console.log(`Réponse sélectionnée : ${selectedIndex}`);
+
+   // Passer à la question suivante
+   currentQuestionIndex++;
+   displayQuestion();
+   // Logique pour traiter la réponse (par exemple, vérifier si elle est correcte)
 
 
-function openModal() {
+}
+
+function endQuiz() {
    document.querySelector('.overlay').style.display = 'block';
    document.querySelector('.modal').classList.add('modal--open');
+   document.querySelectorAll('.btn_quiz').forEach((btn) => {
+      btn.style.display = 'none';
+      second_screen.style.display = 'none';
+      btn.onclick = null;
+   });
+
 }
+
+
 function closeModal() {
    document.querySelector('.overlay').style.display = 'none';
    document.querySelector('.modal').classList.remove('modal--open');
 }
+
