@@ -69,13 +69,13 @@ const quizContent = [
 /// Assignation des variables à leurs Ids
 const first_screen = document.querySelector('#first_screen');
 const second_screen = document.querySelector('#second_screen');
-let btn_start = document.querySelector('#btn_start')
-let view_quiz = document.querySelector('#view_quiz')
-let increm_quiz = document.querySelector('#increm_quiz')
-let allQuiz = quizContent.length
-
-let currentQuestionIndex = 0
-let NbrQiz = 0
+let btn_start = document.querySelector('#btn_start');
+let view_quiz = document.querySelector('#view_quiz');
+let showResult = document.querySelector('#showResult');
+let increm_quiz = document.querySelector('#increm_quiz');
+let allQuiz = quizContent.length;
+let currentQuestionIndex = 0;
+let NbrQiz = 0;
 
 increm_quiz.textContent = '0/' + allQuiz;
 /// Declenchement du quiz
@@ -119,7 +119,7 @@ function handleAnswer(selectedIndex) {
 
 function endQuiz() {
    document.querySelector('.overlay').style.display = 'block';
-   document.querySelector('.modal').classList.add('modal--open');
+   document.querySelector('.modal').style.display = 'block';
    document.querySelectorAll('.btn_quiz').forEach((btn) => {
       btn.style.display = 'none';
       second_screen.style.display = 'none';
@@ -131,6 +131,6 @@ function endQuiz() {
 
 function closeModal() {
    document.querySelector('.overlay').style.display = 'none';
-   document.querySelector('.modal').classList.remove('modal--open');
+   document.querySelector('.modal').style.display = 'none';
 }
 
