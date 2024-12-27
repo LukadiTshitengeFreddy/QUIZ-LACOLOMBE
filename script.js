@@ -71,5 +71,5 @@ let second_screen = document.querySelector('#second_screen');
 let btn_start = document.querySelector('#btn_start');
 
 btn_start.addEventListener('click', function () {
-   first_screen.style.display = 'none'
+
 })
