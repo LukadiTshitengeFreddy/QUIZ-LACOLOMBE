@@ -1,0 +1,30 @@
+body {
+   margin: 0%;
+   padding: 0%;
+}
+
+.one {
+   border: 2px solid green;
+   background-color: green;
+   padding: 2%;
+}
+
+.two {
+   border: 2px solid yellow;
+   background-color: yellow;
+   padding: 2%;
+}
+
+.three {
+   border: 2px solid red;
+   background-color: red;
+   padding: 2%;
+}
+
+.all {
+   margin: 5%;
+}
+
+a {
+   text-decoration: none;
+}
