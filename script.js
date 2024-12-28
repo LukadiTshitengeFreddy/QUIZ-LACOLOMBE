@@ -121,10 +121,10 @@ const quizContent = [
       "id": 5,
       "suggestions": [
          {
-            "one": "Organisation Nationale de Gouvernance, une entité qui gère les politiques publiques à l’échelle nationale avec des objectifs sociaux ",
-            "two": "Est un acronyme pour Organisation non-gouvernementale",
-            "three": "Une organisation secrète qui conçoit les règles des jeux de société populaires, comme celui-ci pour aider les employés dans la culture de l\'entreprise",
-            "for": "Organisation Non Générale, une association temporaire créée pour résoudre des crises spécifiques dans des régions isolées"
+            "one": "Non,au moins dans le cas d’une relation très sérieuse. Si c’est le cas, vous devez en informer à un des membres du comité directeurgit",
+            "two": "Oui, c'est interdit par une loi internationale qui vise à maintenir un environnement totalement dénué d'émotions dans les lieux de travail",
+            "three": "Oui, les entreprises peuvent licencier automatiquement deux employés qui commencent une relation, même si cela n’affecte pas leur travail",
+            "for": "Non, tout contact personnel entre collègues n'est pas considéré comme une infraction aux droits fondamentaux des entreprises"
          }
       ],
       "correctAnswer": 1
