@@ -145,7 +145,7 @@ let score = 0;
 
 increm_quiz.textContent = '0/' + allQuiz;
 
-view_quiz.textContent = ''
+view_quiz.textContent = '';
 
 btn_start.addEventListener('click', function () {
    first_screen.style.display = 'none';
@@ -175,7 +175,7 @@ function handleAnswer(selectedIndex) {
    if (selectedIndex === correctAnswer) {
       score += 1;
    }
-   ///console.log(`Réponse sélectionnée : ${selectedIndex}, Bonne réponse : ${correctAnswer}`);
+   console.log(`Réponse sélectionnée : ${selectedIndex}, Bonne réponse : ${correctAnswer}`);
 
    compteur += 1;
 
