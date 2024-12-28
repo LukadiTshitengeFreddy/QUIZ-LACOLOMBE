@@ -1,74 +1,139 @@
 const quizContent = [
    {
-      "title": 'Que veut dire l\'expression : MVT ?',
+      "title": "Que veut dire l'expression : MOUVEMENT BANQUE ?",
       "id": 1,
       "suggestions": [
          {
             "one": "Une expédition internationale visant à explorer une île déserte pour y établir des bases scientifiques et commerciales",
-            "two": "Veut dire déplacer l’argent d’une agence a une autre dans une même ville, soit d’une ville a une autre, soit encore d’une agence à une banque ou vice versa(1)",
-            "three": "Une architecture utilisée dans le framework Django, où le modèle gère les données, la vue traite la logique et le template gère l\'affichage",
-            "for": "Une abréviation courante pour \'mouvement\', souvent utilisée dans des contextes liés à la physique ou à la cinématique"
+            "two": "Signifie déplacer l’argent d’une agence a une autre dans une même ville, soit d’une ville a une autre, soit encore d’une agence à une banque ou vice versa",
+            "three": "Une architecture utilisée dans le framework Django, où le modèle gère les données, la vue traite la logique et le template gère l'affichage",
+            "for": "Une abréviation courante pour mouvement, souvent utilisée dans des contextes liés à la physique ou à la cinématique"
          }
       ],
       "correctAnswer": 1
    },
    {
-      "title": 'Que veut dire l\'expression : Mission de service ?',
+      "title": " Qui est l'actuel PDG de notre Entreprise ?",
       "id": 2,
       "suggestions": [
          {
-            "one": "Expression utilisé pour désigner une opération effectuée sur un compte bancaire, comme un débit ou un crédit Par exemple, un relevé de compte affiche les MVT pour lister les transactions",
-            "two": "Un programme militaire ultra-secret dédié à l’entraînement de robots pour accomplir des tâches à haut risque en territoire hostile",
-            "three": "Inclus tout déplacement du travailleur dans le cadre du travail pour une longue ou courte durée sur un chemin long ou court(1)",
-            "for": "Un projet organisé par un groupe d’amis pour créer une chaîne de restauration rapide spécialisée dans les plats exotiques"
+            "one": "Monsieur Baudouin Wa ngoie",
+            "two": "Monsieur Deo Hamboleo",
+            "three": "Monsieur Patrick Kibila",
+            "for": "Madame Nicole Wa ngoie"
          }
       ],
-      "correctAnswer": 2
+      "correctAnswer": 0
    },
    {
-      "title": 'Que veut dire l\'expression : Au service ?',
+      "title": "Que veut dire l'expression : FAIRE UN DÉPÔT ?",
       "id": 3,
       "suggestions": [
          {
-            "one": "Une technique utilisée par les joueurs de tennis pour améliorer leur précision lorsqu’ils frappent la balle au début d’un match",
-            "two": "Au boulot, au travail ou en train de travailler ; soit le trajet nécessaire pour atteindre le lieu du travail(1)",
-            "three": "Une ancienne coutume médiévale où les chevaliers devaient chanter des poèmes à table pour divertir les seigneurs et les dames",
-            "for": "Un département secret dans les entreprises qui fabrique des gadgets pour les agents secrets, comme dans les films d’espionnage"
+            "one": "Ranger un objet précieux chez un notaire pour qu'il soit protégé et conservé jusqu'à la fin d'un contrat",
+            "two": "Déposer une somme d'argent sur un compte bloqué pour servir uniquement de garantie lors d'un emprunt ou d'un crédit immobilier",
+            "three": "C’est l’opération qui consiste pour un client à remettre l’argent a un caissier pour pouvoir le transférer pour son compte vers une autre agence",
+            "for": "Effectuer une opération bancaire qui consiste à transférer de l'argent depuis un compte courant directement vers une banque étrangère"
          }
       ],
       "correctAnswer": 2
    },
    {
-      "title": 'Que veut dire l\'expression : Locale ? ',
+      "title": "Que veut dire l'expression : RETRAIT ?",
       "id": 4,
       "suggestions": [
          {
-            "one": "Ce qui est relatif à un endroit spécifique ou une zone géographique limitée, souvent utilisé pour désigner des particularités ou des éléments propres à une région précise",
-            "two": "Une technique musicale du XVIIIe siècle qui consistait à imiter les sons de la nature pour créer une ambiance régionale",
-            "three": "Une ancienne danse ancestrals pratiquée exclusivement sous la pleine lune dans certaines régions isolées",
-            "for": "L’endroit où se trouve notre activité ou notre bureau (bureau, agence, alimentation, magasin ou toute pièce comprenant les biens et matériaux(1)"
+            "one": "Retirer un document officiel d’un bureau administratif pour pouvoir le modifier avant de le soumettre à nouveau",
+            "two": "Supprimer un compte bancaire de manière permanente pour éviter toute future transaction ou activité associée",
+            "three": "Enlever une somme d’argent de sa cate visa, mais uniquement pour la transférer immédiatement vers un compte bancaire",
+            "for": "Opération consistant pour un bénéficiaire de retirer une somme d’argent dans notre locale moyennant un code fournit par un expéditeur"
          }
       ],
       "correctAnswer": 3
    },
    {
-      "title": "Que veut dire l\'expression : Comité directeur ? ",
+      "title": "Que veut dire l'expression : ONG ? ",
       "id": 5,
       "suggestions": [
          {
-            "one": "Un groupe de bénévoles chargé de nettoyer les parcs municipaux et de planter des arbres dans les zones urbaines",
-            "two": "Une organisation secrète qui conçoit les règles des jeux de société populaires, comme celui-ci pour aider les employés dans la culture de l\'entreprise",
-            "three": "Un groupe restreint de personnes ayant pour mission de définir les grandes orientations et de prendre des décisions dans le but de s\'auto - satisfaire",
-            "for": "L’ensemble des quatre dirigeants de l’entreprise dont, la mission est de définir les grandes orientations et de prendre des décisions stratégiques au sein de entreprise(1)"
+            "one": "Organisation Nationale de Gouvernance, une entité qui gère les politiques publiques à l’échelle nationale avec des objectifs sociaux ",
+            "two": "Est un acronyme pour Organisation non-gouvernementale",
+            "three": "Une organisation secrète qui conçoit les règles des jeux de société populaires, comme celui-ci pour aider les employés dans la culture de l\'entreprise",
+            "for": "Organisation Non Générale, une association temporaire créée pour résoudre des crises spécifiques dans des régions isolées"
          }
       ],
-      "correctAnswer": 3
-   }
+      "correctAnswer": 1
+   },
+   {
+      "title": "Quel est l'âge moyen dans notre entreprise pour être considéré comme mineur ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "(18-25) ans",
+            "two": "(0-17) ans",
+            "three": "(30-50) ans",
+            "for": "(0-20) ans"
+         }
+      ],
+      "correctAnswer": 1
+   },
+   {
+      "title": "Qui est l'actuel Directeur Général de notre Entreprise ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Monsieur Jonathan Monkila",
+            "two": "Monsieur Pascal Zahera",
+            "three": "Monsieur Patrick Kibila",
+            "for": "Monsieur Ismael Wa ngoie"
+         }
+      ],
+      "correctAnswer": 2
+   },
+   {
+      "title": "Nous avons combien d'echelle d'infractions pour les fautes légères ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "(Six) echelle d'infraction",
+            "two": "(Dix) echelle d'infraction",
+            "three": "(Trois) echelle d'infraction",
+            "for": "(Une) echelle "
+         }
+      ],
+      "correctAnswer": 0
+   },
+   {
+      "title": "À quoi sert le bureau Solde ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Le bureau Solde sert à organiser des ventes promotionnelles en fin de saison pour écouler les produits invendus des magasins",
+            "two": "Le bureau de la direction générale qui s’occupe de vérifier toutes les transactions financières et contrôler le capital de l’entreprise",
+            "three": "Il est chargé de calculer les gains et les pertes des jeux de hasard dans les casinos internationaux",
+            "for": "Ce bureau gère les économies des citoyens et redistribue les surplus à des organisations caritatives"
+         }
+      ],
+      "correctAnswer": 1
+   },
+   {
+      "title": "Est-il interdit aux travailleurs d’avoir une relation amoureuse ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Organisation Nationale de Gouvernance, une entité qui gère les politiques publiques à l’échelle nationale avec des objectifs sociaux ",
+            "two": "Est un acronyme pour Organisation non-gouvernementale",
+            "three": "Une organisation secrète qui conçoit les règles des jeux de société populaires, comme celui-ci pour aider les employés dans la culture de l\'entreprise",
+            "for": "Organisation Non Générale, une association temporaire créée pour résoudre des crises spécifiques dans des régions isolées"
+         }
+      ],
+      "correctAnswer": 1
+   },
 ]
 
 const first_screen = document.querySelector('#first_screen');
 const second_screen = document.querySelector('#second_screen');
-const correctAnswer = quizContent.correctAnswer
+const correctAnswer = quizContent.correctAnswer;
 let btn_start = document.querySelector('#btn_start');
 let view_quiz = document.querySelector('#view_quiz');
 let showResult = document.querySelector('#showResult');
@@ -81,6 +146,7 @@ let score = 0;
 increm_quiz.textContent = '0/' + allQuiz;
 
 view_quiz.textContent = ''
+
 btn_start.addEventListener('click', function () {
    first_screen.style.display = 'none';
    second_screen.style.display = 'block';
@@ -101,7 +167,6 @@ function displayQuestion() {
    }
 }
 
-
 function handleAnswer(selectedIndex) {
 
    const question = quizContent[currentQuestionIndex];
@@ -110,7 +175,7 @@ function handleAnswer(selectedIndex) {
    if (selectedIndex === correctAnswer) {
       score += 1;
    }
-   console.log(`Réponse sélectionnée : ${selectedIndex}, Bonne réponse : ${correctAnswer}`);
+   ///console.log(`Réponse sélectionnée : ${selectedIndex}, Bonne réponse : ${correctAnswer}`);
 
    compteur += 1;
 
@@ -129,12 +194,14 @@ function endQuiz() {
       second_screen.style.display = 'none';
       btn.onclick = null;
    });
-
 }
-
 
 function closeModal() {
    document.querySelector('.overlay').style.display = 'none';
    document.querySelector('.modal').style.display = 'none';
 }
 
+
+const random = Math.floor(Math.random() * 3)
+
+console.log(random)
