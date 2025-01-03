@@ -20,67 +20,20 @@
       <link
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
          rel="stylesheet">
-
-      <title>QUIZ REGLEMENT D'ORDRE INTERIEUR</title>
+      <title>QUIZ LA COLOMBE</title>
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
-      <!-- image d'entête-->
-      <div class="text-center mt-3 div_img">
-         <img src="assets/background_lacolombe.jpg"
-            alt="image de l'agence de transfert Baudoin Lacolombe">
+      <div class="divImg">
+         <img src="assets/background_lacolombe.jpg" alt>
       </div>
-      <!-- Fin image d'entête-->
+      <h3 class="text-center">JEU DE QUIZ</h3>
 
-      <!-- Contenaire de tous les composaants -->
-      <div class="bg-light border border-5 mt-4 container_all">
-         <div id="first_screen" class="first_screen">
-            <button class="btn_start" id="btn_start"><i
-                  class="fa-solid fa-play fa-1x"> P_L_A_Y -
-                  G_A_M_E</i></button>
-         </div>
-         <div class="second_screen" id="second_screen">
-            <div class="text-center fs-4 mt-4" id="increm_quiz"></div>
-            <div class="Espace_Quiz text-center" id="view_quiz"></div>
-            <div class="container_Quiz row m-1">
-               <div class="col">
-                  <div class="btn_quiz m-3 fs-6 text-center" id="btn1"></div>
-                  <div class="btn_quiz m-3 fs-6 text-center" id="btn2"></div>
-               </div>
-               <div class="col">
-                  <div class="btn_quiz m-3 fs-6 text-center" id="btn3"></div>
-                  <div class="btn_quiz m-3 fs-6 text-center" id="btn4"></div>
-               </div>
-            </div>
-         </div>
+      <div class="text-center containerStep">
+         <div class="facile"><a href="Facile/facile.html">FACILE</a></div>
+         <div class="moyen"><a href="Moyen/moyen.html">MOYEN</a></div>
+         <div class="difficile"><a
+               href="Difficile/difficile.html">DIFFICILE</a></div>
       </div>
-      <!-- Fin Contenaire de tous les composaants -->
-      <!-- Section Modal -->
-      <div class="result_screen">
-         <div class="overlay"></div>
-         <div class="modal">
-            <div class="close" onclick="closeModal()"><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                  stroke="currentColor" class="size-6">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                     d="M6 18 18 6M6 6l12 12" />
-               </svg>
-            </div>
-            <div class="modal_header">
-               <h2 class="modal_titre text-center">SCORE</h2>
-            </div>
-            <div class="modal_body">
-               Salut votre Score est de : <span id="showResult"></span>
-            </div>
-            <div class="modal_footer">
-               <button class="modal_footer_button"
-                  onclick="closeModal()">Fermer</button>
-            </div>
-         </div>
-      </div>
-      <!-- Fin Modal -->
-      <!-- Lien au fichier Js -->
-      <script src="script.js"></script>
    </body>
 </html>
