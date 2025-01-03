@@ -138,18 +138,25 @@ let btn_start = document.querySelector('#btn_start');
 let view_quiz = document.querySelector('#view_quiz');
 let showResult = document.querySelector('#showResult');
 let increm_quiz = document.querySelector('#increm_quiz');
+let NbrBonnRepons = document.querySelector('#NbrBonnRepons');
+let Nbr_Bon_Rep = document.querySelector('#Nbr_Bon_Rep');
+let Allq = document.querySelectorAll('#Allq');
 let allQuiz = quizContent.length;
 let currentQuestionIndex = 0;
 let compteur = 0;
 let score = 0;
+let scoreR = 0
 
 increm_quiz.textContent = '0/' + allQuiz;
+
+Allq.textContent = allQuiz;
 
 view_quiz.textContent = '';
 
 btn_start.addEventListener('click', function () {
    first_screen.style.display = 'none';
    second_screen.style.display = 'block';
+   NbrBonnRepons.style.display = 'block';
    displayQuestion()
 })
 
@@ -174,12 +181,14 @@ function handleAnswer(selectedIndex) {
 
    if (selectedIndex === correctAnswer) {
       score += 1;
+      scoreR += 1;
    }
    console.log(`Réponse sélectionnée : ${selectedIndex}, Bonne réponse : ${correctAnswer}`);
 
    compteur += 1;
 
    increm_quiz.textContent = `${compteur} / ${allQuiz}`;
+   Nbr_Bon_Rep.textContent = scoreR
 
    currentQuestionIndex++;
    displayQuestion();
@@ -200,8 +209,8 @@ function closeModal() {
    document.querySelector('.overlay').style.display = 'none';
    document.querySelector('.modal').style.display = 'none';
 }
-
-
-const random = Math.floor(Math.random() * 3)
-
-console.log(random)
+function v() {
+   f.addEventListener('click', function () {
+      alert('Bonjour')
+   })
+}
