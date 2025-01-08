@@ -10,7 +10,8 @@ const quizContent = [
             "for": "Une abréviation courante pour mouvement, souvent utilisée dans des contextes liés à la physique ou à la cinématique"
          }
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "falseAnwswer": [0, 2, 3]
    },
    {
       "title": " Qui est l'actuel PDG de notre Entreprise ?",
@@ -183,15 +184,19 @@ function handleAnswer(selectedIndex) {
       score += 1;
       scoreR += 1;
    }
+
    console.log(`Réponse sélectionnée : ${selectedIndex}, Bonne réponse : ${correctAnswer}`);
 
    compteur += 1;
 
    increm_quiz.textContent = `${compteur} / ${allQuiz}`;
+
    Nbr_Bon_Rep.textContent = scoreR
 
    currentQuestionIndex++;
+
    displayQuestion();
+
 }
 
 function endQuiz() {
