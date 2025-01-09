@@ -10,8 +10,7 @@ const quizContent = [
             "for": "Une abréviation courante pour mouvement, souvent utilisée dans des contextes liés à la physique ou à la cinématique"
          }
       ],
-      "correctAnswer": 1,
-      "falseAnwswer": [0, 2, 3]
+      "correctAnswer": 1
    },
    {
       "title": " Qui est l'actuel PDG de notre Entreprise ?",
@@ -40,7 +39,7 @@ const quizContent = [
       "correctAnswer": 2
    },
    {
-      "title": "Que veut dire l'expression : RETRAIT ?",
+      "title": "Que veut dire l'expression : FAIRE UN RETRAIT ?",
       "id": 4,
       "suggestions": [
          {
@@ -66,7 +65,7 @@ const quizContent = [
       "correctAnswer": 1
    },
    {
-      "title": "Quel est l'âge moyen dans notre entreprise pour être considéré comme mineur ?",
+      "title": "Quel est la moyenne d'âge dans notre entreprise pour être considéré comme mineur ?",
       "id": 5,
       "suggestions": [
          {
@@ -128,8 +127,73 @@ const quizContent = [
             "for": "Non, tout contact personnel entre collègues n'est pas considéré comme une infraction aux droits fondamentaux des entreprises"
          }
       ],
+      "correctAnswer": 0
+   },
+   {
+      "title": "Nos locaux sont ouverts de quelle jour à quel jour ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Les locaux sont ouverts du lundi au vendredi, mais uniquement l’après-midi",
+            "two": "Nos locaux sont ouverts du lundi au samedi, avec une fermeture exceptionnelle le samedi matin 15h",
+            "three": "Les portes de nos locaux sont ouvertes du lundi au vendredi de 8h00 à 16h30, et le samedi jusqu'à 14h00",
+            "for": "Nos locaux sont ouverts du lundi au samedi de 8h00 jusqu'à l'heure de finir le boulot, et le samedi jusqu'à 14h00"
+         }
+      ],
+      "correctAnswer": 2
+   },
+   {
+      "title": "Combien des jours ou semaine en amont une demande d'absence doit être indiquer ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "3 Semaine avant",
+            "two": "7 Jours après",
+            "three": "2 Semaine avant",
+            "for": "7 Jours avant"
+         }
+      ],
+      "correctAnswer": 3
+   },
+   {
+      "title": "Lorsque le gouvernement annonce une journée de marche ou tout autre activité qui pourrait affecter nos activités que demander au gerant de faire ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Il est demandé d’informer immédiatement la direction et un membre du comité directeur, pour avoir des instructions claires sur l'approche à avoir",
+            "two": "Demander au gérant de fermer les locaux pour toute la journée, peu importe l’impact réel de l’activité",
+            "three": "Dire au gérant de contacter tous les employés pour leur demander de venir travailler une heure plus tôt, au cas où",
+            "for": "Il est demandé de fermer tous nos locaux et attendre les instructions le jour suivant pour reprendre ou non"
+         }
+      ],
+      "correctAnswer": 0
+   },
+   {
+      "title": "L'habillement classique est requis de quel jour à quel jour ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "L’habillement classique est obligatoire du jeudi au dimanche, sauf les jours fériés",
+            "two": "L’habillement classique est exigé tous les jours, y compris le samedi, bien qu'une jounée relax mais décente",
+            "three": "L’habillement classique est exigé tous les jours, sauf le samedi, où une tenue décontractée est exigée",
+            "for": "L’habillement classique est requis du lundi au samedi, mais uniquement en chemise"
+         }
+      ],
       "correctAnswer": 1
    },
+   {
+      "title": "Qui est le Chef du departement Informatique ?",
+      "id": 5,
+      "suggestions": [
+         {
+            "one": "Monsieur Peniel Shako",
+            "two": "monsieur Ismael Wa ngoie",
+            "three": "Monsieu bellamard Kiala",
+            "for": "Monsieur Jonathan Monkila"
+         }
+      ],
+      "correctAnswer": 0
+   }
 ]
 
 const first_screen = document.querySelector('#first_screen');
