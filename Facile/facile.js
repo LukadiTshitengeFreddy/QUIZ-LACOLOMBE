@@ -66,7 +66,7 @@ const quizContent = [
    },
    {
       "title": "Quel est la moyenne d'âge dans notre entreprise pour être considéré comme mineur ?",
-      "id": 5,
+      "id": 6,
       "suggestions": [
          {
             "one": "(18-25) ans",
@@ -79,7 +79,7 @@ const quizContent = [
    },
    {
       "title": "Qui est l'actuel Directeur Général de notre Entreprise ?",
-      "id": 5,
+      "id": 7,
       "suggestions": [
          {
             "one": "Monsieur Jonathan Monkila",
@@ -92,7 +92,7 @@ const quizContent = [
    },
    {
       "title": "Nous avons combien d'echelle d'infractions pour les fautes légères ?",
-      "id": 5,
+      "id": 8,
       "suggestions": [
          {
             "one": "(Six) echelle d'infraction",
@@ -105,7 +105,7 @@ const quizContent = [
    },
    {
       "title": "À quoi sert le bureau Solde ?",
-      "id": 5,
+      "id": 9,
       "suggestions": [
          {
             "one": "Le bureau Solde sert à organiser des ventes promotionnelles en fin de saison pour écouler les produits invendus des magasins",
@@ -118,7 +118,7 @@ const quizContent = [
    },
    {
       "title": "Est-il interdit aux travailleurs d’avoir une relation amoureuse ?",
-      "id": 5,
+      "id": 10,
       "suggestions": [
          {
             "one": "Non,au moins dans le cas d’une relation très sérieuse. Si c’est le cas, vous devez en informer à un des membres du comité directeurgit",
@@ -131,7 +131,7 @@ const quizContent = [
    },
    {
       "title": "Nos locaux sont ouverts de quelle jour à quel jour ?",
-      "id": 5,
+      "id": 11,
       "suggestions": [
          {
             "one": "Les locaux sont ouverts du lundi au vendredi, mais uniquement l’après-midi",
@@ -144,7 +144,7 @@ const quizContent = [
    },
    {
       "title": "Combien des jours ou semaine en amont une demande d'absence doit être indiquer ?",
-      "id": 5,
+      "id": 12,
       "suggestions": [
          {
             "one": "3 Semaine avant",
@@ -157,7 +157,7 @@ const quizContent = [
    },
    {
       "title": "Lorsque le gouvernement annonce une journée de marche ou tout autre activité qui pourrait affecter nos activités que demander au gerant de faire ?",
-      "id": 5,
+      "id": 13,
       "suggestions": [
          {
             "one": "Il est demandé d’informer immédiatement la direction et un membre du comité directeur, pour avoir des instructions claires sur l'approche à avoir",
@@ -170,7 +170,7 @@ const quizContent = [
    },
    {
       "title": "L'habillement classique est requis de quel jour à quel jour ?",
-      "id": 5,
+      "id": 14,
       "suggestions": [
          {
             "one": "L’habillement classique est obligatoire du jeudi au dimanche, sauf les jours fériés",
@@ -183,7 +183,7 @@ const quizContent = [
    },
    {
       "title": "Qui est le Chef du departement Informatique ?",
-      "id": 5,
+      "id": 15,
       "suggestions": [
          {
             "one": "Monsieur Peniel Shako",
